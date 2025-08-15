@@ -12,7 +12,7 @@ loaderVersion="${loader_version_range}" #mandatory
 
 # The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
-license="${mod_license}"
+license="MIT"
 
 # A URL to refer people to when problems occur with this mod
 #issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
@@ -24,7 +24,7 @@ license="${mod_license}"
 modId="createrenewablenaturalblocks" #mandatory
 
 # The version number of the mod
-version="${file.jarVersion}" #mandatory
+version="1.0.0" #mandatory
 
 # A display name for the mod
 displayName="Create: Renewable Natural Blocks" #mandatory
@@ -42,10 +42,10 @@ displayName="Create: Renewable Natural Blocks" #mandatory
 #credits="" #optional
 
 # A text field displayed in the mod UI
-authors="${mod_authors}" #optional
+authors="Sliced" #optional
 
 # The description text for the mod (multi line!) (#mandatory)
-description='''${mod_description}'''
+description='''Adds renewable Create mod recipes of Minecraft natural blocks.'''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
 #[[mixins]]
