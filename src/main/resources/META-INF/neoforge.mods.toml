@@ -24,10 +24,10 @@ license="${mod_license}"
 modId="createrenewablenaturalblocks" #mandatory
 
 # The version number of the mod
-version="${mod_version}" #mandatory
+version="${file.jarVersion}" #mandatory
 
 # A display name for the mod
-displayName="${file.jarVersion}" #mandatory
+displayName="${mod_name}" #mandatory
 
 # A URL to query for updates for this mod. See the JSON update specification https://docs.neoforged.net/docs/misc/updatechecker/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
